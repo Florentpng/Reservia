@@ -1,0 +1,181 @@
+#bloc_page
+{
+	font-family: Raleway;
+}
+
+/* Icones */
+#logo_gps
+{
+	width: 14px;
+	height: 14px;
+}
+
+#eco
+{
+	width: 20px;
+	height: 20px;
+}
+
+#famille
+{
+	width: 10px;
+	height: 10px;
+}
+
+#romantique
+{
+	width: 20px;
+	height: 20px;
+}
+
+#animaux
+{
+	width: 20px;
+	height: 20px;
+}
+
+#logo_info
+{
+	width: 20px;
+	height: 20px;
+}
+
+#etoile
+{
+	width: 20px;
+	height: 20px;
+}
+
+#etoile_vide
+{
+	width: 20px;
+	heig
+	ht: 20px;
+}
+
+#logo_graphique
+{
+	width: 20px;
+	height: 20px;
+}
+
+/* Header */
+#logo
+{
+	width: 85px;
+	height: 43px;
+}
+
+#titre
+{
+	font-size: 10px;
+	margin-bottom: -7px
+}
+
+#sous_titre
+{
+	font-size: 14px;
+}
+
+#en_tete
+{
+	margin-top: 20px;
+}
+
+nav
+{
+    width: 700px;
+    text-align: right;
+    margin-left: 500px;
+    margin-top: -118px;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+#reservia
+{
+	padding-top: 20px;
+	margin-bottom: 100px;
+}
+
+nav a
+{
+	text-decoration: none;
+	font-size: 14px;
+	color: black;
+	padding-top: 39px;
+}
+
+#inscription
+{
+	color: #0065FC;
+	font-weight: bold;
+	border-top: none;
+	margin-left: 17px
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+}
+
+/* Barre de recherche */
+#zone_recherche
+{
+	display: flex;
+	padding-left: 0px
+}
+
+#ville
+{
+	width: 145px;
+	height: 35px;
+	padding-left: 10px;
+	border: 1px solid #F2F2F2;
+}
+
+#gps
+{
+	
+	border: 1px solid #F2F2F2;
+	border-radius: 10px 0px 0px 10px;
+	width: 35px;
+	height: 37px;
+	margin-top: 16px;
+	background-color: #F2F2F2;
+}
+
+#logo_gps
+{
+	padding-left: 10px;
+	padding-top: 12px;
+}
+
+#bouton_recherche
+{
+	background-color: #0065FC;
+	border-radius: 0px 10px 10px 0px;
+	height: 29px;
+	width: 100px;
+	margin-top: 16px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.bouton
+{
+	text-decoration: none;
+	color: white;
+}
+
+dsffsd
