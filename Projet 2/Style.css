@@ -3,12 +3,6 @@
 	font-family: Raleway;
 }
 
-#logo_info
-{
-	width: 20px;
-	height: 20px;
-}
-
 #etoile
 {
 	width: 20px;
@@ -328,3 +322,31 @@ nav a:hover
 	position: absolute;
 	z-index: 7;
 }
+
+/* Zone information */
+#info
+{
+	display: flex;
+	margin-top: 5px;
+
+}
+
+#logo_info
+{
+	width: 8px;
+	height: 11px;
+	border: 2px solid #dedede;
+	border-radius: 20px 20px 20px 20px;
+	margin-top: 9px;
+	margin-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+#info p
+{
+	font-size: 14px;
+}
+
