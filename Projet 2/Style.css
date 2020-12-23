@@ -3,18 +3,6 @@
 	font-family: Raleway;
 }
 
-#etoile
-{
-	width: 20px;
-	height: 20px;
-}
-
-#etoile_vide
-{
-	width: 20px;
-	height: 20px;
-}
-
 #logo_graphique
 {
 	width: 20px;
@@ -350,3 +338,304 @@ nav a:hover
 	font-size: 14px;
 }
 
+/* Première Section */
+#cartes_hebergements
+{
+	width: 808px;
+	height: 570px;
+	background-color: #f0f0f0;
+	border-radius: 20px 20px 20px 20px;
+	margin-top: 10px;
+	padding-top: 20px;
+}
+
+#cartes_hebergements h1
+{
+	font-size: 20px
+}
+
+#cartes_hebergements h3
+{
+	font-size: 15px;
+}
+
+#cartes a
+{
+	text-decoration: none;
+	color: black;
+}
+
+#cartes p
+{
+	font-size: 12px;
+}
+
+#etoile
+{
+	width: 12px;
+	height: 12px;
+}
+
+#etoile_vide
+{
+	width: 12px;
+	height: 12px;
+}
+
+#cartes_hebergements h1
+{
+	padding-left: 30px;
+}
+#cartes_hebergements #haut
+{	
+	display: flex;			
+}
+
+#cartes_hebergements #bas
+{
+	display: flex;
+}
+
+/*cannebiere*/
+#cannebiere
+{
+	margin-bottom: 30px;
+	padding-left: 30px;
+}
+
+#cannebiere_img
+{
+	width: 220px;
+	height: 130px;
+	margin-right: 120px;
+	border: 4px solid white;
+	border-radius: 17px 17px 0px 0px;
+	z-index: 1;
+	position: absolute;
+	box-shadow: 0px -2px 5px 0px #d9d9d9;
+}
+
+#description1 p, #description1 #etoiles1
+{
+	margin-top: -10px;
+}
+
+#description1
+{
+	margin-top: 118px;
+	padding-left: 15px;
+	padding-top: 0.1px;
+	z-index: 2;
+	position: relative;
+	border-radius: 0px 0px 17px 17px;
+	background-color: white;
+	width: 213px;
+	height: 80px;
+	box-shadow: 0px 5px 5px 0px #d9d9d9;
+
+}
+
+/*hotel du port*/
+#description2 p, #description2 #etoiles2
+{
+	margin-top: -10px;
+}
+
+#description2
+{
+	margin-top: 118px;
+	padding-left: 15px;
+	padding-top: 0.1px;
+	z-index: 2;
+	position: relative;
+	border-radius: 0px 0px 17px 17px;
+	background-color: white;
+	width: 213px;
+	height: 80px;
+	box-shadow: 0px 5px 5px 0px #d9d9d9;
+}
+
+#hotel_port_img
+{
+	width: 220px;
+	height: 130px;
+	margin-right: 120px;
+	border: 4px solid white;
+	border-radius: 17px 17px 17px 17px;
+	z-index: 1;
+	position: absolute;
+	box-shadow: 0px -2px 5px 0px #d9d9d9;
+
+}
+
+#hotel_port
+{
+	padding-left: 30px;
+}
+
+
+/*hotel mouettes*/
+#description3 p, #description3 #etoiles3
+{
+	margin-top: -10px;
+}
+
+#description3
+{
+	margin-top: 118px;
+	padding-left: 15px;
+	padding-top: 0.1px;
+	z-index: 2;
+	position: relative;
+	border-radius: 0px 0px 17px 17px;
+	background-color: white;
+	width: 213px;
+	height: 80px;
+	box-shadow: 0px 5px 5px 0px #d9d9d9;
+}
+
+#hotel_mouettes_img
+{
+	width: 220px;
+	height: 130px;
+	margin-right: 120px;
+	border: 4px solid white;
+	border-radius: 17px 17px 17px 17px;
+	z-index: 1;
+	position: absolute;
+	box-shadow: 0px -2px 5px 0px #d9d9d9;
+
+}
+
+#hotel_mouettes
+{
+	padding-left: 30px;
+}
+
+/*hotel de la mer*/
+#description4 p, #description4 #etoiles4
+{
+	margin-top: -10px;
+}
+
+#description4
+{
+	margin-top: 118px;
+	padding-left: 15px;
+	padding-top: 0.1px;
+	z-index: 2;
+	position: relative;
+	border-radius: 0px 0px 17px 17px;
+	background-color: white;
+	width: 213px;
+	height: 80px;
+	box-shadow: 0px 5px 5px 0px #d9d9d9;
+}
+
+#hotel_mer_img
+{
+	width: 220px;
+	height: 150px;
+	margin-right: 120px;
+	border: 4px solid white;
+	border-radius: 17px 17px 17px 17px;
+	z-index: 1;
+	position: absolute;
+	box-shadow: 0px -2px 5px 0px #d9d9d9;
+
+}
+
+#hotel_mer
+{
+	margin-bottom: 20px;
+	padding-left: 30px;
+}
+
+
+/*auberge*/
+#description5 p, #description5 #etoiles5
+{
+	margin-top: -10px;
+}
+
+#description5
+{
+	margin-top: 118px;
+	padding-left: 15px;
+	padding-top: 0.1px;
+	z-index: 2;
+	position: relative;
+	border-radius: 0px 0px 17px 17px;
+	background-color: white;
+	width: 213px;
+	height: 80px;
+	box-shadow: 0px 5px 5px 0px #d9d9d9;
+}
+
+#auberge_img
+{
+	width: 220px;
+	height: 130px;
+	margin-right: 120px;
+	border: 4px solid white;
+	border-radius: 17px 17px 17px 17px;
+	z-index: 1;
+	position: absolute;
+	box-shadow: 0px -2px 5px 0px #d9d9d9;
+
+}
+
+#auberge
+{
+	padding-left: 30px;
+}
+
+/*hotel amina*/
+#description6 p, #description6 #etoiles6
+{
+	margin-top: -10px;
+}
+
+#description6
+{
+	margin-top: 118px;
+	padding-left: 15px;
+	padding-top: 0.1px;
+	z-index: 2;
+	position: relative;
+	border-radius: 0px 0px 17px 17px;
+	background-color: white;
+	width: 213px;
+	height: 80px;
+	box-shadow: 0px 5px 5px 0px #d9d9d9;
+}
+
+#hotel_amina_img
+{
+	width: 220px;
+	height: 150px;
+	margin-right: 120px;
+	border: 4px solid white;
+	border-radius: 17px 17px 17px 17px;
+	z-index: 1;
+	position: absolute;
+	box-shadow: 0px -2px 5px 0px #d9d9d9;
+
+}
+
+#hotel_amina
+{
+	padding-left: 30px;
+}
+
+/*Boutton afficher plus*/
+#afficher_plus
+{
+	margin-left: 30px;
+}
+
+#afficher_plus a
+{
+	text-decoration: none;
+	color: black;
+}
