@@ -1,5 +1,11 @@
 #bloc_page
 {
+	width: 1150px;
+    margin: auto;
+}
+
+body
+{
 	font-family: Raleway;
 }
 
@@ -341,8 +347,8 @@ nav a:hover
 /* Première Section */
 #cartes_hebergements
 {
-	width: 808px;
-	height: 570px;
+	width: 745px;
+	height: 530px;
 	background-color: #f0f0f0;
 	border-radius: 20px 20px 20px 20px;
 	margin-top: 10px;
@@ -405,8 +411,8 @@ nav a:hover
 
 #cannebiere_img
 {
-	width: 220px;
-	height: 130px;
+	width: 200px;
+	height: 95px;
 	margin-right: 120px;
 	border: 4px solid white;
 	border-radius: 17px 17px 0px 0px;
@@ -422,17 +428,16 @@ nav a:hover
 
 #description1
 {
-	margin-top: 118px;
+	margin-top: 100px;
 	padding-left: 15px;
 	padding-top: 0.1px;
 	z-index: 2;
 	position: relative;
 	border-radius: 0px 0px 17px 17px;
 	background-color: white;
-	width: 213px;
+	width: 193px;
 	height: 80px;
 	box-shadow: 0px 5px 5px 0px #d9d9d9;
-
 }
 
 /*hotel du port*/
@@ -443,25 +448,25 @@ nav a:hover
 
 #description2
 {
-	margin-top: 118px;
+	margin-top: 100px;
 	padding-left: 15px;
 	padding-top: 0.1px;
 	z-index: 2;
 	position: relative;
 	border-radius: 0px 0px 17px 17px;
 	background-color: white;
-	width: 213px;
+	width: 193px;
 	height: 80px;
 	box-shadow: 0px 5px 5px 0px #d9d9d9;
 }
 
 #hotel_port_img
 {
-	width: 220px;
-	height: 130px;
+	width: 200px;
+	height: 95px;
 	margin-right: 120px;
 	border: 4px solid white;
-	border-radius: 17px 17px 17px 17px;
+	border-radius: 17px 17px 0px 0px;
 	z-index: 1;
 	position: absolute;
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
@@ -482,25 +487,25 @@ nav a:hover
 
 #description3
 {
-	margin-top: 118px;
+	margin-top: 100px;
 	padding-left: 15px;
 	padding-top: 0.1px;
 	z-index: 2;
 	position: relative;
 	border-radius: 0px 0px 17px 17px;
 	background-color: white;
-	width: 213px;
+	width: 193px;
 	height: 80px;
 	box-shadow: 0px 5px 5px 0px #d9d9d9;
 }
 
 #hotel_mouettes_img
 {
-	width: 220px;
-	height: 130px;
+	width: 200px;
+	height: 95px;
 	margin-right: 120px;
 	border: 4px solid white;
-	border-radius: 17px 17px 17px 17px;
+	border-radius: 17px 17px 0px 0px;
 	z-index: 1;
 	position: absolute;
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
@@ -520,25 +525,25 @@ nav a:hover
 
 #description4
 {
-	margin-top: 118px;
+	margin-top: 100px;
 	padding-left: 15px;
 	padding-top: 0.1px;
 	z-index: 2;
 	position: relative;
 	border-radius: 0px 0px 17px 17px;
 	background-color: white;
-	width: 213px;
+	width: 193px;
 	height: 80px;
 	box-shadow: 0px 5px 5px 0px #d9d9d9;
 }
 
 #hotel_mer_img
 {
-	width: 220px;
-	height: 150px;
+	width: 200px;
+	height: 115px;
 	margin-right: 120px;
 	border: 4px solid white;
-	border-radius: 17px 17px 17px 17px;
+	border-radius: 17px 17px 0px 0px;
 	z-index: 1;
 	position: absolute;
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
@@ -560,25 +565,25 @@ nav a:hover
 
 #description5
 {
-	margin-top: 118px;
+	margin-top: 100px;
 	padding-left: 15px;
 	padding-top: 0.1px;
 	z-index: 2;
 	position: relative;
 	border-radius: 0px 0px 17px 17px;
 	background-color: white;
-	width: 213px;
+	width: 193px;
 	height: 80px;
 	box-shadow: 0px 5px 5px 0px #d9d9d9;
 }
 
 #auberge_img
 {
-	width: 220px;
-	height: 130px;
+	width: 200px;
+	height: 95px;
 	margin-right: 120px;
 	border: 4px solid white;
-	border-radius: 17px 17px 17px 17px;
+	border-radius: 17px 17px 0px 0px;
 	z-index: 1;
 	position: absolute;
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
@@ -598,25 +603,25 @@ nav a:hover
 
 #description6
 {
-	margin-top: 118px;
+	margin-top: 100px;
 	padding-left: 15px;
 	padding-top: 0.1px;
 	z-index: 2;
 	position: relative;
 	border-radius: 0px 0px 17px 17px;
 	background-color: white;
-	width: 213px;
+	width: 193px;
 	height: 80px;
 	box-shadow: 0px 5px 5px 0px #d9d9d9;
 }
 
 #hotel_amina_img
 {
-	width: 220px;
-	height: 150px;
+	width: 200px;
+	height: 125px;
 	margin-right: 120px;
 	border: 4px solid white;
-	border-radius: 17px 17px 17px 17px;
+	border-radius: 17px 17px 0px 0px;
 	z-index: 1;
 	position: absolute;
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
@@ -639,3 +644,181 @@ nav a:hover
 	text-decoration: none;
 	color: black;
 }
+
+/*Zone plus populaires*/
+#plus_populaires
+{
+	width: 335px;
+}
+section, section
+{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 30px;
+}
+
+#plus_populaires
+{
+	height: 530px;
+	background-color: #f0f0f0;
+	border-radius: 20px 20px 20px 20px;
+	margin-top: 10px;
+	padding-top: 20px;
+}
+
+#plus_populaires h1
+{
+	margin-right: 60px;
+	padding-left: 30px;
+	font-size: 20px;
+}
+
+#plus_populaires h3
+{
+	font-size: 15px;
+}
+
+#plus_populaires a
+{
+	text-decoration: none;
+	color: black;
+}
+
+#plus_populaires p
+{
+	font-size: 12px;
+}
+
+#plus_populaires h1, #logo_graphique
+{
+	display: inline-block;
+}
+
+/*Soleil du matin*/
+#description7 h3
+{
+	margin-bottom: -5px;
+}
+
+#etoiles7
+{
+	padding-top: 12px;
+}
+
+#description7
+{
+	padding-top: 0.1px;
+	padding-left: 18px;
+	left: 110px;
+	z-index: 2;
+	position: relative;
+	background-color: white;
+	width: 142px;
+	height: 123px;
+	box-shadow: 10px 0px 10px 0px #d9d9d9;
+	border-radius: 0 20px 20px 0;
+}
+
+#hotel_soleil_img
+{
+	width: 140px;
+	height: 115px;
+	border: 4px solid white;
+	z-index: 1;
+	position: absolute;
+	box-shadow: -3px 0px 10px -1px #d9d9d9;
+	border-radius: 20px 0 0 20px;
+
+}
+
+#hotel_soleil
+{
+	margin-bottom: 40px;
+	padding-left: 30px;
+}
+
+/*Au coeur de l'eau*/
+#description8 h3
+{
+	margin-bottom: -5px;
+}
+
+#etoiles8
+{
+	padding-top: 12px;
+}
+
+#description8
+{
+	padding-top: 0.1px;
+	padding-left: 18px;
+	left: 110px;
+	z-index: 2;
+	position: relative;
+	background-color: white;
+	width: 142px;
+	height: 123px;
+	box-shadow: 10px 0px 10px 0px #d9d9d9;
+	border-radius: 0 20px 20px 0;
+}
+
+#au_coeur_img
+{
+	width: 140px;
+	height: 115px;
+	border: 4px solid white;
+	z-index: 1;
+	position: absolute;
+	box-shadow: -3px 0px 10px -1px #d9d9d9;
+	border-radius: 20px 0 0 20px;
+
+}
+
+#au_coeur
+{
+	margin-bottom: 40px;
+	padding-left: 30px;
+}
+
+/*Tout bleu et blanc*/
+#description9 h3
+{
+	margin-bottom: -5px;
+}
+
+#etoiles9
+{
+	padding-top: 12px;
+}
+
+#description9
+{
+	padding-top: 0.1px;
+	padding-left: 18px;
+	left: 110px;
+	z-index: 2;
+	position: relative;
+	background-color: white;
+	width: 142px;
+	height: 123px;
+	box-shadow: 10px 0px 10px 0px #d9d9d9;
+	border-radius: 0 20px 20px 0;
+}
+
+#hotel_bleu_img
+{
+	width: 140px;
+	height: 115px;
+	border: 4px solid white;
+	z-index: 1;
+	position: absolute;
+	box-shadow: -3px 0px 10px -1px #d9d9d9;
+	border-radius: 20px 0 0 20px;
+
+}
+
+#hotel_bleu
+{
+	padding-left: 30px;
+}
+
