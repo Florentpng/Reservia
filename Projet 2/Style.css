@@ -170,6 +170,11 @@ nav a:hover
 	color: black;
 }
 
+#filtres a:hover
+{
+	font-size: 18px;
+	color: #0065FC;
+}
 /*-----Icones et bordures-----*/
 #eco
 {
@@ -377,13 +382,30 @@ nav a:hover
 	font-size: 12px;
 }
 
-#etoile
+#etoile1, #etoile2, #etoile3, #etoile4, #etoile5, #etoile6, #etoile7, #etoile8, #etoile9, #etoile10
 {
 	width: 12px;
 	height: 12px;
 }
 
-#etoile_vide
+#etoile11, #etoile12, #etoile13, #etoile14, #etoile15, #etoile16, #etoile17, #etoile18, #etoile19, #etoile20
+{
+	width: 12px;
+	height: 12px;
+}
+
+#etoile21, #etoile22, #etoile23, #etoile24, #etoile25, #etoile26, #etoile27, #etoile28, #etoile29, #etoile30
+{
+	width: 12px;
+	height: 12px;
+}
+#etoile31, #etoile32, #etoile33, #etoile34, #etoile35, #etoile36, #etoile37, #etoile38
+{
+	width: 12px;
+	height: 12px;
+}
+
+#etoile_vide1, #etoile_vide2, #etoile_vide3, #etoile_vide4, #etoile_vide5, #etoile_vide6, #etoile_vide7
 {
 	width: 12px;
 	height: 12px;
@@ -422,7 +444,7 @@ nav a:hover
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
 }
 
-#description1 p, #description1 #etoiles1
+#description1 p, #description1 #etoiles_premier
 {
 	margin-top: -10px;
 }
@@ -442,7 +464,7 @@ nav a:hover
 }
 
 /*-----Hotel du port-----*/
-#description2 p, #description2 #etoiles2
+#description2 p, #description2 #etoiles_second
 {
 	margin-top: -10px;
 }
@@ -481,7 +503,7 @@ nav a:hover
 
 
 /*-----Hotel mouettes-----*/
-#description3 p, #description3 #etoiles3
+#description3 p, #description3 #etoiles_troisieme
 {
 	margin-top: -10px;
 }
@@ -519,7 +541,7 @@ nav a:hover
 }
 
 /*-----Hotel de la mer-----*/
-#description4 p, #description4 #etoiles4
+#description4 p, #description4 #etoiles_quatrieme
 {
 	margin-top: -10px;
 }
@@ -559,7 +581,7 @@ nav a:hover
 
 
 /*-----Auberge-----*/
-#description5 p, #description5 #etoiles5
+#description5 p, #description5 #etoiles_cinquieme
 {
 	margin-top: -10px;
 }
@@ -597,7 +619,7 @@ nav a:hover
 }
 
 /*-----hotel amina-----*/
-#description6 p, #description6 #etoiles6
+#description6 p, #description6 #etoiles_sixieme
 {
 	margin-top: -10px;
 }
@@ -701,7 +723,7 @@ section, section
 	margin-bottom: -5px;
 }
 
-#etoiles7
+#etoiles_septieme
 {
 	padding-top: 12px;
 }
@@ -744,7 +766,7 @@ section, section
 	margin-bottom: -5px;
 }
 
-#etoiles8
+#etoiles_huitieme
 {
 	padding-top: 12px;
 }
@@ -787,7 +809,7 @@ section, section
 	margin-bottom: -5px;
 }
 
-#etoiles9
+#etoiles_neuvieme
 {
 	padding-top: 12px;
 }
@@ -837,7 +859,7 @@ section, section
 #activites
 {
 	display: flex;
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 }
 
 #double1
@@ -1068,3 +1090,85 @@ section, section
 	padding-top: 15px;
 }
 
+/*-----Footer-----*/
+footer a
+{
+	text-decoration: none;
+}
+
+footer li
+{
+	list-style-type: none;
+}
+
+footer
+{
+	margin-left: -60px;
+	padding-left: 60px;
+	padding-top: 25px;
+	width: 1230px;
+	height: 150px;
+	background-color: #f0f0f0;
+	display: flex;
+}
+
+/*-----A propos-----*/
+#a_propos
+{
+	margin-right: 200px;
+}
+
+#a_propos h2
+{
+	font-size: 15px;
+}
+
+#a_propos li
+{
+	margin-left: -40px;
+}
+
+#a_propos a
+{
+	font-size: 10px;
+	color: black;
+}
+
+/*-----Hebergements-----*/
+#hebergements
+{
+	margin-right: 270px;
+}
+
+#hebergements h2
+{
+	font-size: 15px;
+}
+
+#hebergements a
+{
+	font-size: 10px;
+	color: black;
+}
+
+#hebergements li
+{
+	margin-left: -40px;
+}
+
+/*-----Assistance-----*/
+#assistance h2
+{
+	font-size: 15px;
+}
+
+#assistance a
+{
+	font-size: 10px;
+	color: black;
+}
+
+#assistance li
+{
+	margin-left: -40px;
+}
