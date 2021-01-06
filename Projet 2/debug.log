@@ -16,3 +16,8 @@
 [0102/123143.152:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Public\Documents\Google\Chrome\attachments\169c9730-1ef7-4162-bdab-08dfa2de9378: Le chemin d’accès spécifié est introuvable. (0x3)
 [0103/013808.162:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
 [0103/122453.311:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[0104/132930.021:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[0105/123109.665:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[0106/003620.766:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[0106/122042.144:ERROR:directory_reader_win.cc(43)] FindFirstFile: Le chemin d’accès spécifié est introuvable. (0x3)
+[0106/122042.162:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Public\Documents\Google\Chrome\attachments\0cec163a-63b6-4aaf-b5bc-5e9161492734: Le chemin d’accès spécifié est introuvable. (0x3)
