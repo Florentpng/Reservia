@@ -8,7 +8,7 @@
 {
     #bloc_page
     {
-        width: auto;
+        width: 400px;
     }
 }
 
@@ -34,22 +34,22 @@ body
 {
 	#logo
 	{
-		padding-left: 5px;
-		margin-bottom: 20px;
+		padding-left: 40px;
+		margin-bottom: 10px;
 	}
 }
 
 #titre
 {
 	font-size: 10px;
-	margin-bottom: -7px
+	margin-bottom: -10px
 }
 
 @media all and (max-width: 700px)
 {
 	#titre
 	{
-
+		margin-bottom: 10px;
 	}
 }
 
@@ -68,6 +68,8 @@ body
 	#en_tete
 	{
 		margin-top: 30px;
+		margin-left: 35px;
+		width: 320px;
 	}
 }
 
@@ -83,26 +85,29 @@ nav
 {
 	nav
 	{
+		width: 300px;
 		height: 50px;
 		text-align: left;
-		margin-top: -130px;
-		margin-left: 0px;
+		font-size: 100px;
+		margin-left: 130px;
+		margin-top: -290px;
+		margin-bottom: 160px;
 	}
 
 	nav ul
 	{
-		margin-left: -35px;
+		margin-left: -120px;
 	}
 
 	nav li
 	{
-		margin-right: 0px;
-		
+
 	}
 
 	nav a
 	{
-		padding-bottom: 10px;
+		padding-bottom: 5px;
+		
 	}
 }
 
@@ -128,7 +133,7 @@ nav a
 	text-decoration: none;
 	font-size: 14px;
 	color: black;
-	padding-top: 39px;
+	padding-top: 37px;
 }
 
 @media all and (max-width: 700px)
@@ -154,7 +159,7 @@ nav a
 		position: absolute;
 		border-bottom: none;
 		margin-top: -90px;
-		margin-left: -60px;
+		margin-left: -70px;
 	}
 }
 
@@ -180,6 +185,13 @@ nav a:hover
 	margin-top: -15px
 }
 
+@media all and (max-width: 700px)
+{
+	#zone_recherche
+	{
+		margin-left: 100px;
+	}
+}
 #ville
 {
 	width: 145px;
@@ -272,8 +284,7 @@ nav a:hover
 /*-----Filtres-----*/
 #filtres
 {
-	display: inline-flex;
-	margin-top: 10px;
+	display: flex;
 }
 
 @media all and (max-width: 700px)
@@ -284,21 +295,80 @@ nav a:hover
 	}
 }
 
-#filtres li
+@media all and (max-width: 700px)
+{
+	#filtres p
+	{
+		margin-left: 35px;
+	}
+}
+
+#inline
+{
+	display: inline-flex;
+
+}
+
+#vertical
+{
+	display: inline-flex;
+
+}
+
+@media all and (max-width: 700px)
+{
+	#inline
+	{
+		display: inline-block;
+	}
+}
+
+@media all and (max-width: 700px)
+{
+	#vertical
+	{
+		display: initial;
+	}
+}
+
+#inline li, #vertical li
 {
 	margin-right: 20px;
 	display: flex;
 	font-size: 15px;
 }
 
-#filtres p
+@media all and (max-width: 700px)
+{
+	#inline li, #vertical li
+	{
+		margin-left: 50px;
+	}
+}
+
+#inline p, #vertical p
 {
 	font-size: 14px;
 	padding-top: 5px;
 	margin-right: -15px;
 }
 
-#filtres ul
+@media all and (max-width: 700px)
+{
+	#inline p, #vertical p
+	{
+		margin-left: 50px;
+		margin-bottom: 25px;
+	}
+}
+
+#inline ul
+{
+	list-style-type: none;
+	display: inline-flex;
+}
+
+#vertical ul
 {
 	list-style-type: none;
 	display: inline-flex;
@@ -306,13 +376,23 @@ nav a:hover
 
 @media all and (max-width: 700px)
 {
-	#filtres ul
+	#inline ul
 	{
+		margin-left: -40px;
+		display: flex;
+	}
+}
+
+@media all and (max-width: 700px)
+{
+	#vertical ul
+	{
+		margin-left: -40px;
 		display: initial;
 	}
 }
 
-#filtres a
+#inline a, #vertical a
 {
 	text-decoration: none;
 	color: black;
@@ -338,7 +418,16 @@ nav a:hover
 {
 	#eco
 	{
-		margin-bottom: -10px;
+		margin-right: 70px;
+		margin-bottom: 5px;
+	}
+}
+
+@media all and (max-width: 700px)
+{
+	#economique_text 
+	{
+
 	}
 }
 
@@ -361,7 +450,7 @@ nav a:hover
 	padding-top: 10px;
 	margin-top: -10px;
 	position: relative;
-	margin-right: 87px;
+	margin-right: 50px;
 	z-index: 4;
 
 }
@@ -370,14 +459,12 @@ nav a:hover
 {
 	#famille
 	{
-		left: 180px;
-		bottom: 21px;
+		
 	}
 
-	#familial_text
+	#familial_text 
 	{
-		left: 185px;
-		top: 341px;
+
 	}
 }
 
@@ -408,6 +495,15 @@ nav a:hover
 	#romantique
 	{
 		margin-bottom: 20px;
+		margin-right: 70px;
+	}
+}
+
+@media all and (max-width: 700px)
+{
+	#romantique_text
+	{
+
 	}
 }
 
@@ -432,6 +528,22 @@ nav a:hover
 	position: relative;
 	margin-right: 120px;
 	z-index: 8;
+}
+
+@media all and (max-width: 700px)
+{
+	#animaux
+	{
+		
+	}
+}
+
+@media all and (max-width: 700px)
+{
+	#animaux_text
+	{
+		
+	}
 }
 
 #logo_animaux
@@ -533,6 +645,14 @@ nav a:hover
 
 }
 
+@media all and (max-width: 700px)
+{
+	#info
+	{
+		margin-left: 35px;
+		width: 350px;
+	}
+}
 #logo_info
 {
 	width: 8px;
@@ -571,19 +691,22 @@ nav a:hover
 		top: 550px;
 		position: relative;
 		background: none;
+		margin-left: 35px;
 	}
 }
 
-#cartes_hebergements h1
+#cartes_hebergements h2
 {
-	font-size: 20px
+	font-size: 20px;
+	margin-left: 35px;
 }
 
 @media all and (max-width: 700px)
 {
-	#cartes_hebergements h1
+	#cartes_hebergements h2
 	{
 		margin-bottom: -80px;
+		padding-left: 0px;
 	}
 }
 
@@ -630,11 +753,6 @@ nav a:hover
 {
 	width: 12px;
 	height: 12px;
-}
-
-#cartes_hebergements h1
-{
-	padding-left: 30px;
 }
 
 #cartes_hebergements #haut
@@ -1038,7 +1156,7 @@ nav a:hover
 {
 	#hotel_amina
 	{
-		margin-bottom: 140px;
+		margin-bottom: 120px;
 	}
 }
 
@@ -1067,6 +1185,7 @@ nav a:hover
 		bottom: 600px;
 		position: relative;
 		margin-bottom: 700px;
+		margin-left: 35px;
 	}
 }
 
@@ -1094,7 +1213,7 @@ section, section
 	}
 }
 
-#plus_populaires h1
+#plus_populaires h2
 {
 	margin-right: 60px;
 	padding-left: 30px;
@@ -1117,7 +1236,7 @@ section, section
 	font-size: 12px;
 }
 
-#plus_populaires h1, #logo_graphique
+#plus_populaires h2, #logo_graphique
 {
 	display: inline-block;
 }
@@ -1268,7 +1387,7 @@ section, section
 }
 
 /*-----Activités-----*/
-#activites h1
+#activites_ancre
 {
 	font-size: 20px;
 }
@@ -1294,9 +1413,9 @@ section, section
 
 @media all and (max-width: 700px)
 {
-	#activites h1
+	#activites_ancre
 	{
-		margin-left: 30px;
+		margin-left: 65px;
 	}
 }
 
@@ -1305,7 +1424,7 @@ section, section
 	display: inline;
 }
 
-#activites h1
+#activites_ancre
 {
 	position: absolute;
 	height: 30px;
@@ -1328,7 +1447,7 @@ section, section
 	{
 		height: 200px;
 		width: 265px;
-		margin-left: 30px;
+		margin-left: 65px;
 	}
 }
 
@@ -1393,7 +1512,7 @@ section, section
 	{
 		height: 220px;
 		width: 265px;
-		margin-left: 30px;
+		margin-left: 65px;
 		margin-bottom: -3px;
 	}
 }
@@ -1454,7 +1573,7 @@ section, section
 {
 	#iles
 	{
-		margin-left: 30px;
+		margin-left: 65px;
 		margin-bottom: -42px;
 		height: 220px;
 		width: 266px;
@@ -1519,7 +1638,7 @@ section, section
 {
 	#calanques
 	{
-		margin-left: 30px;
+		margin-left: 65px;
 		width: 265px;
 		height: 200px;
 	}
@@ -1584,7 +1703,7 @@ section, section
 	#notre_dame
 	{
 		width: 265px;
-		margin-left: 30px;
+		margin-left: 65px;
 		margin-bottom: 122px;
 	}
 }
@@ -1645,7 +1764,7 @@ section, section
 	#parc
 	{
 		width: 265px;
-		margin-left: 30px;
+		margin-left: 65px;
 		margin-bottom: 125px;
 	}
 }
@@ -1718,11 +1837,11 @@ footer
 {
 	footer
 	{
-		margin-left: 0px;
-		padding-left: 0px;
-		padding-top: 0px;
-		width: 300px;
-		height: 300px;
+		margin-left: 35px;
+		padding-left: 70px;
+		padding-top: 20px;
+		width: 265px;
+		height: 320px;
 		display: inline-block;
 		background-color: #f0f0f0;
 	}
