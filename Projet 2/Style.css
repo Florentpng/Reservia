@@ -259,10 +259,10 @@ nav a:hover
 		display: initial;
 	}
 
-	#logo_loupe
+	.fa-search
 	{
-		width: 19px;
-		position: relative;
+		padding-left: 2px;
+		color: white;
 	}
 }
 
@@ -399,95 +399,68 @@ nav a:hover
 }
 
 /*-----Icones et bordures-----*/
-#eco
+/*-----Economique-----*/
+.fa-money-bill-wave-alt
 {
-	width: 22px;
-	height: 32px;
+	width: 20px;
+	height: 28px;
 	border: 0px;
 	border-radius: 30px 30px 30px 30px;
-	padding: 10px 10px 10px;
+	padding-top: 14px;
+	padding-left: 12px;
+	padding-right: 10px;
 	padding-bottom: 0px;
 	margin-top: -10px;
 	background-color: #b5d6ff;
 	position: relative;
 	margin-right: 120px;
 	z-index: 2;
+	color: #1f78fc;
 }
 
 @media all and (max-width: 700px)
 {
 	#eco
 	{
-		margin-right: 70px;
+		margin-right: -45px;
 		margin-bottom: 5px;
 	}
 }
 
-@media all and (max-width: 700px)
+/*-----Familial-----*/
+.fa-male
 {
-	#economique_text 
-	{
-
-	}
-}
-
-#logo_eco
-{
-	width: 18px;
-	margin-top: 3px;
-	margin-left: 2px;
-}
-
-#famille
-{
-	width: 22px;
-	height: 32px;
+	width: 16px;
+	height: 28px;
 	border: 0px;
 	background-color: #b5d6ff;
 	border-radius: 30px 30px 30px 30px;
-	padding-right: 13px;
-	padding-left: 8px;
-	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 17px;
+	padding-top: 14px;
 	margin-top: -10px;
 	position: relative;
 	margin-right: 50px;
 	z-index: 4;
-
+	color: #1f78fc;
 }
 
-@media all and (max-width: 700px)
+/*-----Romantique-----*/
+.fa-heart
 {
-	#famille
-	{
-		
-	}
-
-	#familial_text 
-	{
-
-	}
-}
-
-#logo_famille
-{
-	width: 8px;
-	padding-left: 10px
-}
-
-#romantique
-{
-	width: 22px;
-	height: 32px;
+	width: 21px;
+	height: 28px;
 	border: 0px;
 	background-color: #b5d6ff;
 	border-radius: 30px 30px 30px 30px;
-	padding-right: 13px;
-	padding-left: 8px;
-	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 12px;
+	padding-top: 14px;
 	margin-top: -10px;
 	position: relative;
 	margin-right: 120px;
 	z-index: 6;
+	color: #1f78fc;
 }
 
 @media all and (max-width: 700px)
@@ -495,39 +468,25 @@ nav a:hover
 	#romantique
 	{
 		margin-bottom: 20px;
-		margin-right: 70px;
 	}
 }
 
-@media all and (max-width: 700px)
-{
-	#romantique_text
-	{
-
-	}
-}
-
-#logo_romantique
-{
-	width: 18px;
-	margin-left: 5px;
-	margin-top: 2px;
-}
-
+/*-----Romantique-----*/
 #animaux
 {
-	width: 22px;
+	width: 20px;
 	height: 32px;
 	border: 0px;
 	background-color: #b5d6ff;
 	border-radius: 30px 30px 30px 30px;
 	padding-right: 13px;
-	padding-left: 8px;
+	padding-left: 10px;
 	padding-top: 10px;
 	margin-top: -10px;
 	position: relative;
 	margin-right: 120px;
 	z-index: 8;
+	color: #1f78fc;
 }
 
 @media all and (max-width: 700px)
@@ -653,18 +612,28 @@ nav a:hover
 		width: 350px;
 	}
 }
-#logo_info
+
+.fa-info
 {
-	width: 8px;
-	height: 11px;
+	width: 6px;
+	height: 12px;
 	border: 2px solid #dedede;
 	border-radius: 20px 20px 20px 20px;
 	margin-top: 9px;
 	margin-right: 10px;
-	padding-top: 5px;
+	padding-top: 4px;
 	padding-bottom: 5px;
-	padding-left: 6px;
+	padding-left: 8px;
 	padding-right: 6px;
+	color: #1f78fc;
+}
+
+@media all and (max-width: 700px)
+{
+	.fa-info
+	{
+		width: 8px;
+	}
 }
 
 #info p
@@ -726,35 +695,6 @@ nav a:hover
 	font-size: 12px;
 }
 
-#etoile1, #etoile2, #etoile3, #etoile4, #etoile5, #etoile6, #etoile7, #etoile8, #etoile9, #etoile10
-{
-	width: 12px;
-	height: 12px;
-}
-
-#etoile11, #etoile12, #etoile13, #etoile14, #etoile15, #etoile16, #etoile17, #etoile18, #etoile19, #etoile20
-{
-	width: 12px;
-	height: 12px;
-}
-
-#etoile21, #etoile22, #etoile23, #etoile24, #etoile25, #etoile26, #etoile27, #etoile28, #etoile29, #etoile30
-{
-	width: 12px;
-	height: 12px;
-}
-#etoile31, #etoile32, #etoile33, #etoile34, #etoile35, #etoile36, #etoile37, #etoile38
-{
-	width: 12px;
-	height: 12px;
-}
-
-#etoile_vide1, #etoile_vide2, #etoile_vide3, #etoile_vide4, #etoile_vide5, #etoile_vide6, #etoile_vide7
-{
-	width: 12px;
-	height: 12px;
-}
-
 #cartes_hebergements #haut
 {	
 	display: flex;			
@@ -779,6 +719,99 @@ nav a:hover
 	{
 		display: initial;
 	}
+}
+
+#etoiles_pleines1, #etoile_vide1
+{
+	display: inline;
+}
+
+#etoiles_pleines2, #etoile_vide2
+{
+	display: inline;
+}
+
+#etoiles_pleines3, #etoile_vide3
+{
+	display: inline;
+}
+
+#etoiles_pleines4, #etoile_vide4
+{
+	display: inline;
+}
+
+#etoiles_pleines5, #etoile_vide5
+{
+	display: inline;
+}
+
+#etoiles_pleines6, #etoile_vide6
+{
+	display: inline;
+}
+#etoiles_pleines7, #etoile_vide7
+{
+	display: inline;
+}
+#etoiles_pleines8, #etoile_vide8
+{
+	display: inline;
+}
+#etoiles_pleines9, #etoile_vide9
+{
+	display: inline;
+}
+
+.fa-star
+{
+	color: #1f78fc;
+	margin-right: -3px;
+}
+
+#etoile_vide1 .fa-star
+{
+	color: #e6e6e6;
+}
+
+#etoile_vide2 .fa-star
+{
+	color: #e6e6e6;
+}
+
+#etoile_vide3 .fa-star
+{
+	color: #e6e6e6;
+}
+
+#etoile_vide4 .fa-star
+{
+	color: #e6e6e6;
+}
+
+#etoile_vide5 .fa-star
+{
+	color: #e6e6e6;
+}
+
+#etoile_vide6 .fa-star
+{
+	color: #e6e6e6;
+}
+
+#etoile_vide7 .fa-star
+{
+	color: #e6e6e6;
+}
+
+#etoile_vide8 .fa-star
+{
+	color: #e6e6e6;
+}
+
+#etoile_vide9 .fa-star
+{
+	color: #e6e6e6;
 }
 
 /*-----Cannebiere-----*/
@@ -816,9 +849,10 @@ nav a:hover
 	}
 }
 
-#description1 p, #description1 #etoiles_premier
+#description1 p, #description1
 {
 	margin-top: -10px;
+	margin-bottom: 2px;
 }
 
 #description1
@@ -845,9 +879,10 @@ nav a:hover
 }
 
 /*-----Hotel du port-----*/
-#description2 p, #description2 #etoiles_second
+#description2 p, #description2
 {
 	margin-top: -10px;
+	margin-bottom: 2px;
 }
 
 #description2
@@ -908,9 +943,10 @@ nav a:hover
 }
 
 /*-----Hotel mouettes-----*/
-#description3 p, #description3 #etoiles_troisieme
+#description3 p, #description3
 {
 	margin-top: -10px;
+	margin-bottom: 2px;
 }
 
 #description3
@@ -971,9 +1007,10 @@ nav a:hover
 }
 
 /*-----Hotel de la mer-----*/
-#description4 p, #description4 #etoiles_quatrieme
+#description4 p, #description4
 {
 	margin-top: -10px;
+	margin-bottom: 2px;
 }
 
 #description4
@@ -1035,9 +1072,10 @@ nav a:hover
 }
 
 /*-----Auberge-----*/
-#description5 p, #description5 #etoiles_cinquieme
+#description5 p, #description5
 {
 	margin-top: -10px;
+	margin-bottom: 2px;
 }
 
 #description5
@@ -1098,9 +1136,10 @@ nav a:hover
 }
 
 /*-----hotel amina-----*/
-#description6 p, #description6 #etoiles_sixieme
+#description6 p, #description6
 {
 	margin-top: -10px;
+	margin-bottom: 2px;
 }
 
 #description6
@@ -1247,9 +1286,9 @@ section, section
 	margin-bottom: -5px;
 }
 
-#etoiles_septieme
+#description7 p
 {
-	padding-top: 12px;
+	margin-bottom: 23px;
 }
 
 #description7
@@ -1299,9 +1338,9 @@ section, section
 	margin-bottom: -5px;
 }
 
-#etoiles_huitieme
+#description8 p
 {
-	padding-top: 12px;
+	margin-bottom: 23px;
 }
 
 #description8
@@ -1350,9 +1389,9 @@ section, section
 	margin-bottom: -5px;
 }
 
-#etoiles_neuvieme
+#description9 p
 {
-	padding-top: 12px;
+	margin-bottom: 23px;
 }
 
 #description9
