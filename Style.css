@@ -4,11 +4,21 @@
     margin: auto;
 }
 
-@media all and (max-width: 750px)
+@media all and (max-width: 850px)
 {
     #bloc_page
     {
         width: 400px;
+        margin-left: 140px;
+    }
+}
+
+@media all and (max-width: 400px)
+{
+    #bloc_page
+    {
+        width: 400px;
+        margin-left: 110px;
     }
 }
 
@@ -30,7 +40,7 @@ body
 	height: 43px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#logo
 	{
@@ -45,7 +55,7 @@ body
 	margin-bottom: -10px
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#titre
 	{
@@ -63,7 +73,7 @@ body
 	margin-top: 20px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#en_tete
 	{
@@ -81,7 +91,7 @@ nav
     margin-top: -118px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	nav
 	{
@@ -136,7 +146,7 @@ nav a
 	padding-top: 37px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	nav a
 	{
@@ -152,7 +162,7 @@ nav a
 	margin-left: 17px
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#inscription
 	{
@@ -169,7 +179,7 @@ nav a:hover
     border-top: 2px solid #0065FC;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	nav a:hover
 	{
@@ -185,7 +195,7 @@ nav a:hover
 	margin-top: -15px
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#zone_recherche
 	{
@@ -200,7 +210,7 @@ nav a:hover
 	border: 1px solid #F2F2F2;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#ville
 	{
@@ -236,7 +246,7 @@ nav a:hover
 	padding-left: 10px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#bouton_recherche
 	{
@@ -252,7 +262,7 @@ nav a:hover
 	display: none;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#loupe
 	{
@@ -273,7 +283,7 @@ nav a:hover
 	font-size: 14px
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	.bouton
 	{
@@ -287,7 +297,7 @@ nav a:hover
 	display: flex;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#filtres
 	{
@@ -295,7 +305,7 @@ nav a:hover
 	}
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#filtres p
 	{
@@ -315,7 +325,7 @@ nav a:hover
 
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#inline
 	{
@@ -323,7 +333,7 @@ nav a:hover
 	}
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#vertical
 	{
@@ -338,7 +348,7 @@ nav a:hover
 	font-size: 15px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#inline li, #vertical li
 	{
@@ -353,7 +363,7 @@ nav a:hover
 	margin-right: -15px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#inline p, #vertical p
 	{
@@ -374,7 +384,7 @@ nav a:hover
 	display: inline-flex;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#inline ul
 	{
@@ -383,7 +393,7 @@ nav a:hover
 	}
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#vertical ul
 	{
@@ -418,7 +428,7 @@ nav a:hover
 	color: #1f78fc;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#eco
 	{
@@ -463,7 +473,7 @@ nav a:hover
 	color: #1f78fc;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#romantique
 	{
@@ -487,22 +497,6 @@ nav a:hover
 	margin-right: 120px;
 	z-index: 8;
 	color: #1f78fc;
-}
-
-@media all and (max-width: 700px)
-{
-	#animaux
-	{
-		
-	}
-}
-
-@media all and (max-width: 700px)
-{
-	#animaux_text
-	{
-		
-	}
 }
 
 #logo_animaux
@@ -604,7 +598,7 @@ nav a:hover
 
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#info
 	{
@@ -628,7 +622,7 @@ nav a:hover
 	color: #1f78fc;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	.fa-info
 	{
@@ -653,7 +647,7 @@ nav a:hover
 	margin-bottom: 40px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#cartes_hebergements
 	{
@@ -670,7 +664,7 @@ nav a:hover
 	margin-left: 35px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#cartes_hebergements h2
 	{
@@ -700,7 +694,7 @@ nav a:hover
 	display: flex;			
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#cartes_hebergements #haut
 	{
@@ -713,7 +707,7 @@ nav a:hover
 	display: flex;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#cartes_hebergements #bas
 	{
@@ -821,7 +815,7 @@ nav a:hover
 	padding-left: 30px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#cannebiere
 	{
@@ -841,7 +835,7 @@ nav a:hover
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#cannebiere_img
 	{
@@ -869,7 +863,7 @@ nav a:hover
 	box-shadow: 0px 5px 5px 0px #d9d9d9;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#description1
 	{
@@ -899,7 +893,7 @@ nav a:hover
 	box-shadow: 0px 5px 5px 0px #d9d9d9;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#description2
 	{
@@ -921,7 +915,7 @@ nav a:hover
 
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#hotel_port_img
 	{
@@ -934,7 +928,7 @@ nav a:hover
 	padding-left: 30px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#hotel_port
 	{
@@ -963,7 +957,7 @@ nav a:hover
 	box-shadow: 0px 5px 5px 0px #d9d9d9;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#description3
 	{
@@ -985,7 +979,7 @@ nav a:hover
 
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#hotel_mouettes_img
 	{
@@ -998,7 +992,7 @@ nav a:hover
 	padding-left: 30px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#hotel_mouettes
 	{
@@ -1027,7 +1021,7 @@ nav a:hover
 	box-shadow: 0px 5px 5px 0px #d9d9d9;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#description4
 	{
@@ -1049,7 +1043,7 @@ nav a:hover
 
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#hotel_mer_img
 	{
@@ -1063,7 +1057,7 @@ nav a:hover
 	padding-left: 30px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#hotel_mer
 	{
@@ -1092,7 +1086,7 @@ nav a:hover
 	box-shadow: 0px 5px 5px 0px #d9d9d9;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#description5
 	{
@@ -1114,7 +1108,7 @@ nav a:hover
 
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#auberge_img
 	{
@@ -1127,7 +1121,7 @@ nav a:hover
 	padding-left: 30px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#auberge
 	{
@@ -1156,7 +1150,7 @@ nav a:hover
 	box-shadow: 0px 5px 5px 0px #d9d9d9;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#description6
 	{
@@ -1178,7 +1172,7 @@ nav a:hover
 
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#hotel_amina_img
 	{
@@ -1191,7 +1185,7 @@ nav a:hover
 	padding-left: 30px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#hotel_amina
 	{
@@ -1217,7 +1211,7 @@ nav a:hover
 	width: 335px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#plus_populaires
 	{
@@ -1244,7 +1238,7 @@ section, section
 	padding-top: 20px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#plus_populaires
 	{
@@ -1323,7 +1317,7 @@ section, section
 	padding-left: 30px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#hotel_soleil
 	{
@@ -1375,7 +1369,7 @@ section, section
 	padding-left: 30px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#au_coeur
 	{
@@ -1442,7 +1436,7 @@ section, section
 	margin-bottom: 60px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#activites
 	{
@@ -1450,7 +1444,7 @@ section, section
 	}
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#activites_ancre
 	{
@@ -1480,7 +1474,7 @@ section, section
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#vieux_port
 	{
@@ -1500,7 +1494,7 @@ section, section
 	border-radius: 15px 15px 0 0;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#vieux_port_img
 	{
@@ -1525,7 +1519,7 @@ section, section
 	position: relative;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#vieux_port h3
 	{
@@ -1545,7 +1539,7 @@ section, section
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#fort
 	{
@@ -1565,7 +1559,7 @@ section, section
 	position: relative;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#fort_img
 	{
@@ -1590,7 +1584,7 @@ section, section
 
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#fort h3
 	{
@@ -1608,7 +1602,7 @@ section, section
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#iles
 	{
@@ -1628,7 +1622,7 @@ section, section
 	width: 250px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#iles_img
 	{
@@ -1652,7 +1646,7 @@ section, section
 	margin-top: -75px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#iles h3
 	{
@@ -1673,7 +1667,7 @@ section, section
 }
 
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#calanques
 	{
@@ -1692,7 +1686,7 @@ section, section
 	position: relative;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#calanques_img
 	{
@@ -1717,7 +1711,7 @@ section, section
 	padding-top: 15px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#calanques h3
 	{
@@ -1737,7 +1731,7 @@ section, section
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#notre_dame
 	{
@@ -1756,7 +1750,7 @@ section, section
 	position: relative;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#notre_dame_img
 	{
@@ -1780,7 +1774,7 @@ section, section
 	padding-top: 15px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#notre_dame h3
 	{
@@ -1798,7 +1792,7 @@ section, section
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#parc
 	{
@@ -1817,7 +1811,7 @@ section, section
 	position: relative;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#parc_img
 	{
@@ -1841,7 +1835,7 @@ section, section
 	padding-top: 15px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#parc h3
 	{
@@ -1872,7 +1866,7 @@ footer
 	display: flex;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	footer
 	{
@@ -1892,7 +1886,7 @@ footer
 	margin-right: 200px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#a_propos
 	{
@@ -1902,7 +1896,7 @@ footer
 	}
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#a_propos h2
 	{
@@ -1932,7 +1926,7 @@ footer
 	margin-right: 270px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#hebergements
 	{
@@ -1947,7 +1941,7 @@ footer
 	font-size: 15px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#hebergements h2
 	{
@@ -1967,7 +1961,7 @@ footer
 }
 
 /*-----Assistance-----*/
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#assistance
 	{
@@ -1980,7 +1974,7 @@ footer
 	font-size: 15px;
 }
 
-@media all and (max-width: 700px)
+@media all and (max-width: 800px)
 {
 	#assistance h2
 	{
