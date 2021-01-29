@@ -18,9 +18,18 @@
     #bloc_page
     {
         width: 360px;
-        margin-left: -20px;
+        margin-left: -37px;
         margin-right: 0px;
     }
+}
+
+@media all and (max-width: 320px)
+{
+	#bloc_page
+	{
+		margin-left: -40px;
+		overflow: hidden;
+	}
 }
 
 body
@@ -81,6 +90,14 @@ body
 		margin-top: 30px;
 		margin-left: 35px;
 		width: 320px;
+	}
+}
+
+@media all and (max-width: 320px)
+{
+	#en_tete
+	{
+		width: 310px;
 	}
 }
 
@@ -171,6 +188,14 @@ nav a
 		border-bottom: none;
 		margin-top: -210px;
 		margin-left: 250px;
+	}
+}
+
+@media all and (max-width: 320px)
+{
+	#inscription
+	{
+		margin-left: 230px;
 	}
 }
 
@@ -438,6 +463,14 @@ nav a:hover
 	}
 }
 
+@media all and (max-width: 320px)
+{
+	#eco
+	{
+		margin-right: -55px;
+	}
+}
+
 /*-----Familial-----*/
 .fa-male
 {
@@ -542,6 +575,14 @@ nav a:hover
 	z-index: 3;
 }
 
+@media all and (max-width: 320px)
+{
+	#familial_text
+	{
+		margin-left: 15px;
+	}
+}
+
 #familial_text:hover
 {
 	font-size: 18px;
@@ -605,6 +646,14 @@ nav a:hover
 	{
 		margin-left: 35px;
 		width: 350px;
+	}
+}
+
+@media all and (max-width: 320px)
+{
+	#info
+	{
+		width: 320px;
 	}
 }
 
