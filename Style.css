@@ -69,6 +69,7 @@ body
 	{
 		display: initial;
 		margin: 1.2em;
+		margin-right: 50px;
 		color: #0065FC;
 		font-weight: bold;
 		text-decoration: none;
@@ -105,6 +106,7 @@ body
 	{
 		display: flex;
 		justify-content: space-between;
+		margin-bottom: 40px;
 	}
 }
 
@@ -113,6 +115,7 @@ body
 	.navigation
 	{
 		padding-left: 100px;
+
 
 	}
 }
@@ -186,6 +189,13 @@ nav a
 	}
 }
 
+@media (max-width: 340px)
+{
+	nav a
+	{
+		padding-left: 0px;
+	}
+}
 
 #inscription
 {
@@ -268,7 +278,7 @@ nav a:hover
 		border-radius: 10px 10px 10px 10px;
 		width: 30px;
 		position: relative;
-		margin-left: 150px;
+		margin-left: -10px;
 	}
 }
 
@@ -312,16 +322,40 @@ nav a:hover
 	display: flex;
 }
 
+@media (max-width: 530px)
+{
+	#filtres
+	{
+    	display: initial;
+	}
+}
+
 #inline
 {
 	display: inline-flex;
 
 }
 
+@media (max-width: 530px)
+{
+	#inline
+	{
+    	display: initial;
+	}
+}
+
 #vertical
 {
 	display: inline-flex;
 
+}
+
+@media (max-width: 530px)
+{
+	#vertical
+	{
+    	display: initial;
+	}
 }
 
 #inline li, #vertical li
@@ -342,6 +376,14 @@ nav a:hover
 {
 	list-style-type: none;
 	display: inline-flex;
+}
+
+@media all and (max-width: 650px)
+{
+	#inline ul
+	{
+		display: initial;
+	}
 }
 
 #vertical ul
@@ -420,7 +462,15 @@ nav a:hover
 	color: #1f78fc;
 }
 
-/*-----Romantique-----*/
+@media (max-width: 650px)
+{
+	#famille
+	{
+		margin-top: 20px;
+	}
+}
+
+/*-----Animaux autorisés-----*/
 #animaux
 {
 	width: 20px;
@@ -444,12 +494,6 @@ nav a:hover
 	{
 		margin-top: 10px;
 	}
-}
-
-#logo_animaux
-{
-	margin-left: 5px;
-	width: 19px;
 }
 
 /*-----Bordures titres de filtres-----*/
@@ -486,6 +530,14 @@ nav a:hover
 	border-radius: 0 20px 20px 0;
 	position: absolute;
 	z-index: 3;
+}
+
+@media (max-width: 650px)
+{
+	#familial_text
+	{
+		margin-top: 10px;
+	}
 }
 
 #familial_text:hover
@@ -574,6 +626,22 @@ nav a:hover
 }
 
 /*-----Première section-----*/
+@media all and (max-width: 880px)
+{
+	#cartes
+	{
+		display: flex;
+	}
+}
+
+@media all and (max-width: 565px)
+{
+	#cartes
+	{
+		display: initial;
+	}
+}
+
 #cartes_hebergements
 {
 	width: 745px;
@@ -584,17 +652,38 @@ nav a:hover
 	padding-top: 20px;
 	margin-bottom: 40px;
 }
+
 @media all and (max-width: 1024px)
 {
 	#cartes_hebergements
 	{
-		width: 100%;
+		width: auto;
+		background: none;
 	}
 }
+
+@media all and (max-width: 880px)
+{
+	#cartes_hebergements
+	{
+		height: auto;
+	}
+}
+
 #cartes_hebergements h2
 {
 	font-size: 20px;
 	margin-left: 35px;
+}
+
+@media all and (max-width: 1024px)
+{
+	#cartes_hebergements h2
+	{
+		text-align: center;
+		margin-left: 0px;
+		margin-bottom: 20px;
+	}
 }
 
 #cartes_hebergements h3
@@ -618,7 +707,7 @@ nav a:hover
 	display: flex;			
 }
 
-@media all and (max-width: 830px)
+@media all and (max-width: 880px)
 {
 	#cartes_hebergements #haut
 	{
@@ -631,7 +720,7 @@ nav a:hover
 	display: flex;
 }
 
-@media all and (max-width: 830px)
+@media all and (max-width: 880px)
 {
 	#cartes_hebergements #bas
 	{
@@ -739,6 +828,22 @@ nav a:hover
 	padding-left: 30px;
 }
 
+@media all and (max-width: 1024px)
+{
+	#cannebiere
+	{
+		margin-right: -50px;
+	}
+}
+
+@media all and (max-width: 565px)
+{
+	#cannebiere
+	{
+		margin-right: 0px;
+	}
+}
+
 #cannebiere_img
 {
 	width: 200px;
@@ -751,7 +856,7 @@ nav a:hover
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
 }
 
-@media all and (max-width: 830px)
+@media all and (max-width: 1024px)
 {
 	#cannebiere_img
 	{
@@ -759,19 +864,18 @@ nav a:hover
 	}
 }
 
+@media all and (max-width: 565px)
+{
+	#cannebiere_img
+	{
+		margin-right: 0px;
+	}
+}
+
 #description1 p, #description1
 {
 	margin-top: -10px;
 	margin-bottom: 2px;
-}
-
-@media all and (max-width: 830px)
-{
-	#description1
-	{
-		margin-top: 0;
-		margin-bottom: 0;
-	}
 }
 
 #description1
@@ -788,12 +892,11 @@ nav a:hover
 	box-shadow: 0px 5px 5px 0px #d9d9d9;
 }
 
-@media all and (max-width: 830px)
+@media all and (max-width: 1024px)
 {
 	#description1
 	{
 		margin-top: -10px;
-
 	}
 }
 
@@ -818,6 +921,14 @@ nav a:hover
 	box-shadow: 0px 5px 5px 0px #d9d9d9;
 }
 
+@media all and (max-width: 1024px)
+{
+	#description2
+	{
+		margin-top: -10px;
+	}
+}
+
 #hotel_port_img
 {
 	width: 200px;
@@ -831,9 +942,49 @@ nav a:hover
 
 }
 
+@media all and (max-width: 1024px)
+{
+	#hotel_port_img
+	{
+		position: initial;
+	}
+}
+
+@media all and (max-width: 565px)
+{
+	#hotel_port_img
+	{
+		margin-right: 0px;
+	}
+}
+
 #hotel_port
 {
 	padding-left: 30px;
+}
+
+@media all and (max-width: 1024px)
+{
+	#hotel_port
+	{
+		margin-right: -50px;
+	}
+}
+
+@media all and (max-width: 880px)
+{
+	#hotel_port
+	{
+		margin-bottom: 30px;
+	}
+}
+
+@media all and (max-width: 565px)
+{
+	#hotel_port
+	{
+		margin-right: 0px;
+	}
 }
 
 /*-----Hotel mouettes-----*/
@@ -857,6 +1008,14 @@ nav a:hover
 	box-shadow: 0px 5px 5px 0px #d9d9d9;
 }
 
+@media all and (max-width: 1024px)
+{
+	#description3
+	{
+		margin-top: -10px;
+	}
+}
+
 #hotel_mouettes_img
 {
 	width: 200px;
@@ -870,9 +1029,26 @@ nav a:hover
 
 }
 
+@media all and (max-width: 1024px)
+{
+	#hotel_mouettes_img
+	{
+		position: initial;
+		margin-right: 0px;
+	}
+}
+
 #hotel_mouettes
 {
 	padding-left: 30px;
+}
+
+@media all and (max-width: 565px)
+{
+	#hotel_mouettes
+	{
+		margin-bottom: 30px;
+	}
 }
 
 /*-----Hotel de la mer-----*/
@@ -896,6 +1072,14 @@ nav a:hover
 	box-shadow: 0px 5px 5px 0px #d9d9d9;
 }
 
+@media all and (max-width: 1024px)
+{
+	#description4
+	{
+		margin-top: -10px;
+	}
+}
+
 #hotel_mer_img
 {
 	width: 200px;
@@ -909,10 +1093,44 @@ nav a:hover
 
 }
 
+@media all and (max-width: 1024px)
+{
+	#hotel_mer_img
+	{
+		position: initial;
+		height: 95px;
+	}
+}
+
+@media all and (max-width: 880px)
+{
+	#hotel_mer_img
+	{
+		margin-right: 0px
+	}
+}
+
 #hotel_mer
 {
 	margin-bottom: 20px;
 	padding-left: 30px;
+}
+
+@media all and (max-width: 1024px)
+{
+	#hotel_mer
+	{
+		margin-right: -50px;
+	}
+}
+
+@media all and (max-width: 880px)
+{
+	#hotel_mer
+	{
+		margin-bottom: 30px;
+		margin-right: 0px;
+	}
 }
 
 /*-----Auberge-----*/
@@ -936,6 +1154,15 @@ nav a:hover
 	box-shadow: 0px 5px 5px 0px #d9d9d9;
 }
 
+@media all and (max-width: 1024px)
+{
+	#description5
+	{
+		margin-top: -10px;
+
+	}
+}
+
 #auberge_img
 {
 	width: 200px;
@@ -949,9 +1176,42 @@ nav a:hover
 
 }
 
+@media all and (max-width: 1024px)
+{
+	#auberge_img
+	{
+		position: initial;
+	}
+}
+
+@media all and (max-width: 880px)
+{
+	#auberge_img
+	{
+		margin-right: 0px
+	}
+}
+
 #auberge
 {
 	padding-left: 30px;
+}
+
+@media all and (max-width: 1024px)
+{
+	#auberge
+	{
+		margin-right: -50px;
+	}
+}
+
+@media all and (max-width: 880px)
+{
+	#auberge
+	{
+		margin-bottom: 30px;
+		margin-right: 0px;
+	}
 }
 
 /*-----hotel amina-----*/
@@ -975,6 +1235,15 @@ nav a:hover
 	box-shadow: 0px 5px 5px 0px #d9d9d9;
 }
 
+
+@media all and (max-width: 1024px)
+{
+	#description6
+	{
+		margin-top: -10px;
+	}
+}
+
 #hotel_amina_img
 {
 	width: 200px;
@@ -988,9 +1257,27 @@ nav a:hover
 
 }
 
+@media all and (max-width: 1024px)
+{
+	#hotel_amina_img
+	{
+		position: initial;
+		height: 95px;
+		margin-right: 0px;
+	}
+}
+
 #hotel_amina
 {
 	padding-left: 30px;
+}
+
+@media all and (max-width: 880px)
+{
+	#hotel_amina
+	{
+		margin-right: 0px;
+	}
 }
 
 /*-----Boutton afficher plus-----*/
@@ -1006,9 +1293,119 @@ nav a:hover
 }
 
 /*-----Zone plus populaires-----*/
+@media all and (max-width: 1024px)
+{
+	.sec_popu
+	{
+		margin-top: -850px;
+		margin-bottom: 1000px;
+	}
+}
+
+@media all and (max-width: 1024px)
+{
+	.sec_heb
+	{
+		margin-top: 250px;
+	}
+}
+
+@media all and (max-width: 930px)
+{
+	.sec_popu
+	{
+		margin-top: -1000px;
+
+	}
+}
+
+@media all and (max-width: 930px)
+{
+	.sec_heb
+	{
+		margin-top: 400px;
+	}
+}
+
+@media all and (max-width: 880px)
+{
+	.sec_popu
+	{
+		margin-top: -1190px;
+		margin-bottom: 1200px;
+	}
+}
+
+@media all and (max-width: 880px)
+{
+	.sec_heb
+	{
+		margin-top: 410px;
+	}
+}
+
+@media all and (max-width: 625px)
+{
+	.sec_popu
+	{
+		margin-top: -1130px;
+		margin-bottom: 1150px;
+	}
+}
+
+@media all and (max-width: 625px)
+{
+	.sec_heb
+	{
+		margin-top: 350px;
+	}
+}
+
+@media all and (max-width: 624px)
+{
+	.sec_popu
+	{
+		margin-top: -1300px;
+		margin-bottom: 1150px;
+	}
+}
+
+@media all and (max-width: 624px)
+{
+	.sec_heb
+	{
+		margin-top: 520px;
+	}
+}
+
+@media all and (max-width: 565px)
+{
+	.sec_popu
+	{
+		margin-top: -1900px;
+		margin-bottom: 1750px;
+	}
+}
+
+@media all and (max-width: 565px)
+{
+	.sec_heb
+	{
+		margin-top: 520px;
+	}
+}
+
 #plus_populaires
 {
 	width: 335px;
+}
+
+@media all and (max-width: 1024px)
+{
+	#plus_populaires
+	{
+		width: 100%;
+	}
 }
 
 section, section
@@ -1016,6 +1413,15 @@ section, section
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 30px;
+}
+
+@media all and (max-width: 1024px)
+{
+	section, section
+	{
+		display: initial;
+		margin-right: 0px;
+	}
 }
 
 #plus_populaires
@@ -1027,11 +1433,29 @@ section, section
 	padding-top: 20px;
 }
 
+@media all and (max-width: 1024px)
+{
+	#plus_populaires
+	{
+		height: auto;
+		margin-bottom: -200px;
+	}
+}
+
 #plus_populaires h2
 {
 	margin-right: 60px;
 	padding-left: 30px;
 	font-size: 20px;
+}
+
+@media all and (max-width: 1024px)
+{
+	#plus_populaires h2
+	{
+		padding: 0;
+		margin: auto;
+	}
 }
 
 #plus_populaires h3
@@ -1050,9 +1474,34 @@ section, section
 	font-size: 12px;
 }
 
-#plus_populaires h2, #logo_graphique
+#logo_graphique
 {
-	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-top: 15px;
+}
+
+@media all and (max-width: 1024px)
+{
+	#logo_graphique
+	{
+		margin-right: 15px;
+	}
+}
+
+#plus_populaires_titre
+{
+	display: flex;
+}
+
+@media all and (max-width: 1024px)
+{
+	#plus_populaires_titre
+	{
+		margin-bottom: 15px;
+		justify-content: space-between;
+	}
+	
 }
 
 /*-----Soleil du matin-----*/
@@ -1089,13 +1538,28 @@ section, section
 	position: absolute;
 	box-shadow: -3px 0px 10px -1px #d9d9d9;
 	border-radius: 20px 0 0 20px;
-
 }
 
 #hotel_soleil
 {
 	margin-bottom: 40px;
 	padding-left: 30px;
+}
+
+@media (max-width: 330px)
+{
+	#hotel_soleil
+	{
+		padding-left: 15px;
+	}
+}
+
+@media (max-width: 320px)
+{
+	#hotel_soleil
+	{
+		padding-left: 5px;
+	}
 }
 
 /*-----Au coeur de l'eau-----*/
@@ -1141,6 +1605,22 @@ section, section
 	padding-left: 30px;
 }
 
+@media (max-width: 330px)
+{
+	#au_coeur
+	{
+		padding-left: 15px;
+	}
+}
+
+@media (max-width: 320px)
+{
+	#au_coeur
+	{
+		padding-left: 5px;
+	}
+}
+
 /*-----Tout bleu et blanc-----*/
 #description9 h3
 {
@@ -1183,6 +1663,47 @@ section, section
 	padding-left: 30px;
 }
 
+@media all and (max-width: 930px)
+{
+	#hotel_bleu
+	{
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 330px)
+{
+	#hotel_bleu
+	{
+		padding-left: 15px;
+	}
+}
+
+@media (max-width: 320px)
+{
+	#hotel_bleu
+	{
+		padding-left: 5px;
+	}
+}
+
+@media all and (max-width: 1024px)
+{
+	#hotel_soleil, #au_coeur, #hotel_bleu
+	{
+		display: inline-block;
+	}
+}
+
+@media all and (max-width: 1024px)
+{
+	.sec_heb, .sec_popu
+	{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+
 /*-----Activités-----*/
 #activites_ancre
 {
@@ -1204,7 +1725,9 @@ section, section
 {
 	#activites
 	{
-    	display: initial;
+    	display: inline-block;
+    	margin-top: -250px;
+    	margin-left: 25px;
 	}
 }
 
@@ -1213,10 +1736,69 @@ section, section
 	display: inline;
 }
 
+@media (max-width: 1024px)
+{
+	#double1
+	{
+    	display: inline-block;
+	}
+}
+
+@media (max-width: 1024px)
+{
+	#premier, #double1
+	{
+    	display: inline-flex;
+	}
+}
+
+@media (max-width: 1024px)
+{
+	#deuxieme, #double2
+	{
+    	display: inline-flex;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#double1
+	{
+    	display: initial;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#premier, #double1
+	{
+    	display: initial;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#deuxieme, #double2
+	{
+    	display: initial;
+	}
+}
+
 #activites_ancre
 {
 	position: absolute;
 	height: 30px;
+}
+
+@media (max-width: 1024px)
+{
+	#activites h2
+	{
+		margin-bottom: -45px;
+		height: auto;
+		position: initial;
+    	text-align: center;
+	}
 }
 
 /*-----Vieux port-----*/
@@ -1230,6 +1812,23 @@ section, section
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
 }
 
+@media (max-width: 1024px)
+{
+	#vieux_port
+	{
+		height: 220px;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#vieux_port
+	{
+		margin-bottom: 600px;
+		margin-right: 0px;
+	}
+}
+
 #vieux_port_img
 {
 	margin-left: -120px;
@@ -1238,6 +1837,25 @@ section, section
 	position: absolute;
 	width: 500px;
 	border-radius: 15px 15px 0 0;
+}
+
+@media (max-width: 1024px)
+{
+	#vieux_port_img
+	{
+		clip-path: inset(0px 130px 120px 120px round 4%);
+    	width: 500px;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#vieux_port_img
+	{
+		width: 391px;
+		clip-path: inset(0px 20px 60px 120px round 4%);
+    	margin-bottom: 0px;
+	}
 }
 
 #vieux_port h3
@@ -1256,6 +1874,26 @@ section, section
 	position: relative;
 }
 
+@media (max-width: 1024px)
+{
+	#vieux_port h3
+	{
+		right: 0px;
+		top: -205px;
+    	margin-top: 405px;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#vieux_port h3
+	{
+		margin-top: 0px;
+		top: 193px;
+
+	}
+}
+
 /*-----Fort-----*/
 #fort
 {
@@ -1267,6 +1905,24 @@ section, section
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
 }
 
+@media (max-width: 875px)
+{
+	#fort
+	{
+    	margin-top: -150px;
+    	margin-right: 60px;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#fort
+	{
+		margin-top: -530px;
+		margin-right: 0px;
+	}
+}
+
 #fort_img
 {
 	margin-top: -100px;
@@ -1274,6 +1930,24 @@ section, section
 	background-size: cover;
 	width: 270px;
 	position: relative;
+}
+
+@media (max-width: 1024px)
+{
+	#fort_img
+	{
+		clip-path: inset(100px 104px 200px 0px round 5%);
+    	width: initial;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#fort_img
+	{
+		width: 253px;
+		clip-path: inset(99px 1px 84px 0px round 5%);
+	}
 }
 
 #fort h3
@@ -1289,7 +1963,22 @@ section, section
 	height: 30px;
 	width: 232px;
 	position: absolute;
+}
 
+@media (max-width: 1024px)
+{
+	#fort h3
+	{
+    	margin-top: -238px;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#fort h3
+	{
+		margin-top: -105px;
+	}
 }
 
 /*-----iles-----*/
@@ -1302,12 +1991,55 @@ section, section
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
 }
 
+@media (max-width: 1024px)
+{
+	#iles
+	{
+    	margin-top: 70px;
+	}
+}
+
+@media (max-width: 875px)
+{
+	#iles
+	{
+		margin-top: -440px;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#iles
+	{
+		margin-top: 120px;
+	}
+}
+
 #iles_img
 {
 	margin-top: -20px;
 	clip-path: inset(20px 0px 48px 0px round 5%);
 	background-size: cover;
 	width: 250px;
+}
+
+@media (max-width: 1024px)
+{
+	#iles_img
+	{
+		clip-path: inset(20px 0px 50px 200px round 5%);
+		margin-top: -20px;
+    	width: 450px;
+    	margin-left: -200px;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#iles_img
+	{
+		
+	}
 }
 
 #iles h3
@@ -1325,6 +2057,21 @@ section, section
 	margin-top: -75px;
 }
 
+@media (max-width: 1024px)
+{
+	#iles h3
+	{
+		margin-top: -85px;
+	}
+}
+@media (max-width: 600px)
+{
+	#iles h3
+	{
+		
+	}
+}
+
 /*-----calanques-----*/
 #calanques
 {
@@ -1336,6 +2083,34 @@ section, section
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
 }
 
+@media (max-width: 1024px)
+{
+	#calanques
+	{
+		margin-top: -200px;
+		height: 230px;
+	}
+}
+
+@media (max-width: 875px)
+{
+	#calanques
+	{
+		margin-top: -150px;
+		margin-bottom: 140px;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#calanques
+	{
+		margin-top: 208px;
+    	margin-bottom: 723px;
+    	margin-right: 0px;
+	}
+}
+
 #calanques_img
 {
 	margin-left: -120px;
@@ -1343,6 +2118,25 @@ section, section
 	background-size: cover;
 	width: 500px;
 	position: relative;
+}
+
+@media (max-width: 1024px)
+{
+	#calanques_img
+	{
+		clip-path: inset(90px 130px 15px 120px round 4%);
+		margin-top: -99px;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#calanques_img
+	{
+		clip-path: inset(0px 0px 30px 120px round 4%);
+		margin-top: 0px;
+		width: 370px;
+	}
 }
 
 #calanques h3
@@ -1360,6 +2154,22 @@ section, section
 	padding-top: 15px;
 }
 
+@media (max-width: 1024px)
+{
+	#calanques h3
+	{
+		margin-top: -45px;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#calanques h3
+	{
+		
+	}
+}
+
 /*-----Notre dame-----*/
 #notre_dame
 {
@@ -1371,6 +2181,34 @@ section, section
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
 }
 
+@media (max-width: 1024px)
+{
+	#notre_dame
+	{
+		margin-top: -95px;
+		margin-right: 50px;
+		width: 245px;
+	}
+}
+
+@media (max-width: 875px)
+{
+	#notre_dame
+	{
+		margin-right: 70px;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#notre_dame
+	{
+		margin-top: -377px;
+		margin-bottom: 170px;
+		margin-right: 0px;
+	}
+}
+
 #notre_dame_img
 {
 	clip-path: inset(0px 0px 10px 0px);
@@ -1378,6 +2216,25 @@ section, section
 	background-size: cover;
 	width: 246px;
 	position: relative;
+}
+
+@media (max-width: 1024px)
+{
+	#notre_dame_img
+	{
+		width: 370px;
+		clip-path: inset(0px 125px 10px 0px round 5%);
+	}
+}
+
+@media (max-width: 600px)
+{
+	#notre_dame_img
+	{
+		width: 340px;
+    	clip-path: inset(0px 0px 10px 94px round 5%);
+    	margin-left: -94px;
+	}
 }
 
 #notre_dame h3
@@ -1395,6 +2252,14 @@ section, section
 	padding-top: 15px;
 }
 
+@media (max-width: 600px)
+{
+	#notre_dame h3
+	{
+		margin-top: -35px;
+	}
+}
+
 /*-----Parc-----*/
 #parc
 {
@@ -1404,6 +2269,31 @@ section, section
 	box-shadow: 0px -2px 5px 0px #d9d9d9;
 }
 
+@media (max-width: 1024px)
+{
+	#parc
+	{
+		margin-top: -95px;
+	}
+}
+
+@media (max-width: 875px)
+{
+	#parc
+	{
+		margin-top: -660px;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#parc
+	{
+		margin-top: -610px;
+		margin-bottom: 220px;
+	}
+}
+
 #parc_img
 {
 	margin-top: -20px;
@@ -1411,6 +2301,25 @@ section, section
 	background-size: cover;
 	width: 246px;
 	position: relative;
+}
+
+@media (max-width: 1024px)
+{
+	#parc_img
+	{
+		clip-path: inset(0px 5px 75px 150px round 6%);
+		margin-top: 0px;
+		width: 400px;
+		margin-left: -150px;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#parc_img
+	{
+		
+	}
 }
 
 #parc h3
@@ -1426,6 +2335,22 @@ section, section
 	position: absolute;
 	padding-left: 20px;
 	padding-top: 15px;
+}
+
+@media (max-width: 1024px)
+{
+	#parc h3
+	{
+		margin-top: -105px;
+	}
+}
+
+@media (max-width: 600px)
+{
+	#parc h3
+	{
+		
+	}
 }
 
 /*-----Footer-----*/
@@ -1454,7 +2379,19 @@ footer
 {
 	footer
 	{
-    	width: 90%;
+		justify-content: space-between;
+    	width: 100%;
+	}
+}
+
+@media (max-width: 420px)
+{
+	footer
+	{
+		display: inline-block;
+		background-color: #f0f0f0;
+		height: initial;
+		text-align: center;
 	}
 }
 
@@ -1462,6 +2399,14 @@ footer
 #a_propos
 {
 	margin-right: 200px;
+}
+
+@media (max-width: 1024px)
+{
+	#a_propos
+	{
+		margin-right: 0px;
+	}
 }
 
 #a_propos h2
@@ -1486,6 +2431,14 @@ footer
 	margin-right: 270px;
 }
 
+@media (max-width: 1024px)
+{
+	#hebergements
+	{
+		margin-right: 0px;
+	}
+}
+
 #hebergements h2
 {
 	font-size: 15px;
@@ -1503,6 +2456,15 @@ footer
 }
 
 /*-----Assistance-----*/
+
+@media (max-width: 1024px)
+{
+	#assistance
+	{
+		margin-right: 20px;
+	}
+}
+
 #assistance h2
 {
 	font-size: 15px;
