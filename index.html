@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta charset="utf-8" /> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="Style.css" />
@@ -13,32 +13,32 @@
    <body>
    		<div id="bloc_page">
    			<header>
-   				<div id="reservia">
-
-	   				<div id="logo_reservia">
+   				<div class="haut-page">
+   					<div class="tete">
 	   					<img src="Reservia/images/logo/Reservia@3x.png" alt="logo_reservia" id="logo" />
+	   					<a href="insc" id="insc">S'inscrire</a>
 	   				</div>
-
-	   				<div id="en_tete">
-		   				<div id="titre">
-		   					<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-		   				</div>
-
-		   				<div id="sous_titre">
-		   					<p>En plein centre ville ou en pleine nature</p>
-		   				</div>
+	   				<!--Navigation-->
+	   				<div class="navigation">
+		   				<nav>
+		   					<ul>
+		   						<li><a href="#hebergements_ancre">Hébergements</a></li>
+		   						<li><a href="#activites_ancre">Activités</a></li>
+		   						<li><a href="inscription" id="inscription">S'inscrire</a></li>
+		   					</ul>
+		   				</nav>
 		   			</div>
-
-			   		<!--Navigation-->
-	   				<nav>
-	   					<ul>
-	   						<li><a href="#hebergements_ancre">     Hébergements     </a></li>
-	   						<li><a href="#activites_ancre">       Activités      </a></li>
-	   						<li><a href="inscription" id="inscription">S'inscrire</a></li>
-	   					</ul>
-	   				</nav>
-
 		   		</div>
+	   				
+   				<!--En-tête-->
+   				<div id="en_tete">
+	   				<div id="titre">
+	   					<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+	   				</div>
+	   				<div id="sous_titre">
+	   					<p>En plein centre ville ou en pleine nature</p>
+	   				</div>
+	   			</div>			   	
    			</header>
 
    			<!--Zone de recherche-->
@@ -103,9 +103,9 @@
 	   						<div id="animaux">
 	   							<i class="fas fa-dog fa-lg"></i>
 	   						</div>
-		   						<div id="animaux_text">
-		   							<a href="#"><strong>Animaux autorisés</strong></a>
-		   						</div>
+	   						<div id="animaux_text">
+	   							<a href="#"><strong>Animaux autorisés</strong></a>
+	   						</div>
 	   						</li>
 						</ul>
 					</div>
@@ -118,7 +118,7 @@
    				<p>Plus de 500 logements sont disponibles dans cette ville</p>
    			</div>
 
-	   		<section>
+	   		<section class="sec_heb">
 	   			<!--Hébergements-->
 	   			<div id="cartes_hebergements">
 	   				<h2 id="hebergements_ancre">Hèbergements à Marseille</h2>
@@ -245,11 +245,14 @@
 	   			</div>
 	   		</section>
 
-	   		<section>
+	   		<section class="sec_popu">
 	   			<!--Les plus populaires-->
 	   			<div id="plus_populaires">
-	   				<h2>Les plus populaires</h2>
-	   				<img src="images/chart-line-solid.svg" alt="" id="logo_graphique" />
+
+	   				<div id="plus_populaires_titre">
+	   					<h2>Les plus populaires</h2>
+	   					<img src="images/chart-line-solid.svg" alt="" id="logo_graphique" />
+	   				</div>
 
 	   					<div id="hotel_soleil">
 	   						<a href="#">
@@ -309,7 +312,7 @@
 	   			</div>
 	   		</section>
 
-	   		<section>
+	   		<section class="sec_acti">
 	   			<!--Activités-->
 	   			<div id="activites">
 	   				<h2 id="activites_ancre">Activités à Marseille</h2>
